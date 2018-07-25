@@ -262,6 +262,11 @@ public class KonversiBilangan {
         return hslakhir;
     }
     
+    /**
+     * fungsi ini merupakan fungsi yang digunakan untuk mengubah bilangan oktal menjadi bilangan heksadesimal
+     * @param bilOktal bertipe data integer
+     * @return mengembalikan nilai bilangan heksadesimal
+     */
     public String OktaltoHexa (int bilOktal){
         KonversiBilangan kb = new KonversiBilangan();
         int dsm = kb.OktaltoDesimal(bilOktal);
@@ -269,6 +274,11 @@ public class KonversiBilangan {
         return hx;
     }
     
+    /**
+     * fungsi ini digunakan untuk mengubah bilangan heksadesimal menjadi bilangan oktal
+     * @param bilHexa bertipe data String
+     * @return mengembalikan nilai bilangan oktal
+     */
     public String HexatoOktal (String bilHexa){
         KonversiBilangan kb = new KonversiBilangan();
         int dsm = kb.HexatoDesimal(bilHexa);
@@ -276,6 +286,11 @@ public class KonversiBilangan {
         return okt;
     }
     
+    /**
+     * fungsi ini merupakan fungsi yang digunakan untuk mengubah bilangan biner menjadi bilangan oktal
+     * @param bilBiner bertipe data String
+     * @return mengembalikan nilai bilangan oktal
+     */
     public String BinertoOktal (String bilBiner){
         KonversiBilangan kb = new KonversiBilangan();
         int bin = kb.BinertoDesimal(bilBiner);
